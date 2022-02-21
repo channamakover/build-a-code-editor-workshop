@@ -18,11 +18,11 @@ This workshop will teach you how to build a code editor using [monaco editor](ht
 
 ### Tasks
 > **Complete as many tasks as possible**
-  - [ ] Assign a default text and change the editor language to `typescript`
-  - [ ] Pimp your editor with some custom styles and behavior (full set of options [here](https://microsoft.github.io/monaco-editor/api/interfaces/monaco.editor.IStandaloneEditorConstructionOptions.html))
-  - [ ] Create a new customized theme and replace the built-in one
-  - [ ] Add an action that duplicates the current line (attach the shortkey <kbd>⌘</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>)
-  - [ ] Support the following in code completion :
+  - [X] Assign a default text and change the editor language to `typescript`
+  - [X] Pimp your editor with some custom styles and behavior (full set of options [here](https://microsoft.github.io/monaco-editor/api/interfaces/monaco.editor.IStandaloneEditorConstructionOptions.html))
+  - [X] Create a new customized theme and replace the built-in one
+  - [X] Add an action that duplicates the current line (attach the shortkey <kbd>⌘</kbd>+<kbd>SHIFT</kbd>+<kbd>D</kbd>)
+  - [X] Support the following in code completion :
      * Snippet for `superduperlog` that will execute
        ```js
        console.log("==========");
@@ -31,10 +31,10 @@ This workshop will teach you how to build a code editor using [monaco editor](ht
        ```
        and set the cursor in the middle log command
      * add the global variable `$` with different apis
-  - [ ] Load external type definitions into the code editor (link random `d.ts` here)
-  - [ ] Multiple file support (don't go too hard on file navigation, simply have two or more files and allow swapping between them somehow)
-  - [ ] Integrate some more language features (code lens, highlights or similar, full list of APIs can be found [here](https://microsoft.github.io/monaco-editor/api/modules/monaco.languages.html))
-  - [ ]  Got that far? 😮 here are additional ideas to experiment with:
+  - [X] Load external type definitions into the code editor (link random `d.ts` here)
+  - [X] Multiple file support (don't go too hard on file navigation, simply have two or more files and allow swapping between them somehow)
+  - [X] Integrate some more language features (code lens, highlights or similar, full list of APIs can be found [here](https://microsoft.github.io/monaco-editor/api/modules/monaco.languages.html))
+  - [X]  Got that far? 😮 here are additional ideas to experiment with:
     - Create an additional web worker that will handle code styling (eslint for instance, but you can go with any code analysis tool you love)
     - Allow user to customized their own theme
     - Go to definition
